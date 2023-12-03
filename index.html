@@ -1,1 +1,60 @@
-# 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciclo Celular Interactivo ADA 1 BIOLOGÍA BLOQUE 3</title>
+    <style>
+        p {
+            color: black;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+Trabajo del equipo de Vladimir Peña 2B
+
+<div>
+    <h1>Ciclo Celular Interactivo</h1>
+    <p>Haz clic en los botones para avanzar en el ciclo celular:
+        <img src="ciclo01.png" alt="representación del ciclo" style="width: 100%; max-width: 600px; height: auto;"> 
+    </p>
+    <button onclick="iniciarCiclo()">Iniciar Ciclo</button>
+    <button onclick="faseG1()">Fase G1</button>
+    <button onclick="faseS()">Fase S</button>
+    <button onclick="faseG2()">Fase G2</button>
+    <button onclick="faseM()">Fase M</button>  
+    <button onclick="finalizarCiclo()">Finalizar Ciclo</button>
+</div>
+
+<script>
+    function iniciarCiclo() {
+        alert('El ciclo celular representa el mecanismo fundamental subyacente a la reproducción de todos los seres vivos, y se divide en etapas, a través de las cuales la célula pasa de una división celular a la siguiente. Estos acontecimientos se realizan mediante una secuencia ordenada de procesos en los que la célula duplica su contenido y luego se divide en dos.');
+    }
+
+    function faseG1() {
+        alert('La fase G1 es la primera por la que pasa una célula. Es la etapa más larga y más variable, y en ella se produce crecimiento celular hasta alcanzar el tamaño óptimo. Existe un sistema molecular, denominado punto de control, que impide que la célula comience la siguiente etapa.');
+    }
+
+    function faseS() {
+        alert('Entrando en la fase S (Síntesis de ADN): Para dividirse, una célula debe completar varias tareas importantes: debe crecer, copiar su material genético (ADN) y dividirse físicamente en dos células hijas. Las células realizan estas tareas en una serie de pasos organizada y predecible que conforma el ciclo celular. El ciclo celular es un ciclo, y no un camino lineal, porque al final de cada ronda las dos células hijas pueden iniciar el mismo proceso exacto otra vez desde el inicio.');
+    }
+
+    function faseG2() {
+        alert('Entrando en la fase G2 (Preparación para la división celular): La fase G2 es la segunda etapa de crecimiento, más breve que la G1, en la que además se sintetizan productos necesarios para la siguiente etapa, la fase M, en la que se producirá la división celular.');
+    }
+
+    function faseM() {
+        alert('Entrando en la fase M (Mitosis): La fase M es quizás la más compleja y la que supone una mayor reordenación de los componentes celulares. Durante esta fase se separan todos los componentes celulares en dos partes para formar dos células nuevas e independientes. Hay multitud de procesos moleculares que se disparan y avanzan en paralelo. La mitosis es el mecanismo por el cual se reparten los cromosomas para formar los dos núcleos de las células hijas. La mitosis se puede dividir a su vez en varias etapas relacionadas con los diferentes estados por los que va pasando el ADN.');
+    }
+
+    function finalizarCiclo() {
+        alert('Ciclo celular finalizado');
+    }
+</script>
+
+</body>
+</html>
+
